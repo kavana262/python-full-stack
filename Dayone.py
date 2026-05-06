@@ -1,4 +1,4 @@
-"""#my first program
+#my first program
 print("i am kavana")
 print("this is my first day of learning")
 
@@ -61,10 +61,10 @@ no1=19
 no2=13.55
 no3=no1+no2
 print(no3)
-print(type(no3))"""
+print(type(no3))
 
 
-"""#input()=Taking input from the users
+#input()=Taking input from the users
 Age=int(input("enter your age:"))
 print(f"Your age is {Age}")
 Name=input("What is your name?:")
@@ -75,19 +75,20 @@ print(f"Your name is {Name} and your age is {Age}")
 length=float(input("Enter Rectangle length:"))
 breadth=float(input("Enter Rectangle breadth:"))
 Area=length*breadth
-print(f"Area of Rectangle is {Area}")"""
+print(f"Area of Rectangle is {Area}")
 
 
-"""#Excercise 2=Shopping cart program
+#Excercise 2=Shopping cart program
 
 Item=input("What items would you like to buy?: ")
 Price=float(input("what is the price?:"))
 Quantity=int(input("How many would you like?:"))
 Total=Price * Quantity
-print(f"Your item is {Item} and each one of it cost {Price} and the quantity you selected is {Quantity} and your total price is {Total}")"""
+print(f"Your item is {Item} and each one of it cost {Price} and the quantity you selected is {Quantity} and your total price is {Total}")
 
 
-"""#Excercise 3=Madlibs game
+
+#Excercise 3=Madlibs game
 # word game where you create a story by filling in blanks with random words
 adjective1=input("Enter an adjective(description):")
 noun1=input("Enter a noun(person,place,thing):")
@@ -98,9 +99,10 @@ adjective3=input("Enter an adjective(description):")
 print(f"Today i went to {adjective1} park.")
 print(f"In my farewell i saw {noun1}.")
 print(f"{noun1} was {adjective2} and {verb1}")
-print(f"I was {adjective3}.")"""
+print(f"I was {adjective3}.")
 
-"""
+
+
 #Mathematics
 
 x=3.78
@@ -148,7 +150,7 @@ online=True
 if online:
     print(" The User is online")
 else:
-    print("The user is offline ")"""
+    print("The user is offline ")
 
 
 
