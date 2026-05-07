@@ -1,4 +1,11 @@
 #Note:Revise Dayone's topic and move on 
+#Topics covered in this day :1.Conditional expressions
+# 2.String methods
+# 3.Indexing
+# 4.Format specifier
+# 5.while loop
+# 6.For loop
+# 7.Nested loops
 
 #Conditional expression=one line shortcut fot if-else ststement(ternery operator)
 # x if condition else y
@@ -63,7 +70,7 @@ print(number[-9:-1:2])
 print(number[-4])
 
 
-#format specifiers={value:flags} format a value based on what flags are inserted
+#Format specifiers={value:flags} format a value based on what flags are inserted
 #  .(number)f= round to that many decimal places(fixed point)
 #  :(number)=allocate that many spaces
 #  :03 = allocate and zero pad that many spaces 
