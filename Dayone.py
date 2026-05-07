@@ -1,3 +1,12 @@
+#Topics covered in Dayone
+# 1.variables
+# 2.Type casting and Type conversion
+# 3.Input functions
+# 4.mathematics
+# 5.Conditional statementa
+# 6.Logical operators
+
+
 #my first program
 print("i am kavana")
 print("this is my first day of learning")
