@@ -10,7 +10,7 @@
 
 #list
 #eg1 
-"""names=["kavana","hemavathi","karthik","zak"]
+names=["kavana","hemavathi","karthik","zak"]
 print(names)
 names.append("Karthik") #Adding new elments to the list
 print(names)
@@ -74,7 +74,7 @@ print(len(brands)) #indexing of tuples start from 0
 print(len(brands[1]))#Indexing of elements start from 1
 print(brands.index("rolex"))
 for names in brands:
-    print(names)"""
+    print(names)
 
 
 #Shopping cart program
