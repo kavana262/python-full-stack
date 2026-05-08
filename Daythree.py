@@ -9,7 +9,7 @@
 #Tuple=()  ordered and immutable.Can have duplicate and faster.
 
 #list
-#eg1
+#eg1 
 """names=["kavana","hemavathi","karthik","zak"]
 print(names)
 names.append("Karthik") #Adding new elments to the list
@@ -78,17 +78,24 @@ for names in brands:
 
 
 #Shopping cart program
-food=[]
-prices=[]
-total=0
+foods = []
+prices = []
+total = 0
+
 while True:
-    food=input("Enter a food to buy(Enter q to quit)")
-    if food.lower()=="q":
+    item = input("Enter a food to buy (Enter q to quit): ")
+    
+    if item.lower() == "q":
         break
     else:
-        price=float(input(F"Enter the price of a{food}: inr"))
-        foods.append(food)
+        price = float(input(f"Enter the price of {item}: "))
+        foods.append(item)
         prices.append(price)
+
 print("------Your cart----")
-for food in foods:
-    print(food)
+
+for i in range(len(foods)):
+    print(f"{foods[i]} - ₹{prices[i]}")
+    total += prices[i]
+
+print(f"Total = ₹{total}")
