@@ -83,19 +83,17 @@ prices = []
 total = 0
 
 while True:
-    item = input("Enter a food to buy (Enter q to quit): ")
+    food = input("Enter a food to buy (Enter q to quit): ")
     
-    if item.lower() == "q":
+    if food.lower() == "q":
         break
     else:
         price = float(input(f"Enter the price of {item}: "))
-        foods.append(item)
+        foods.append(food)
         prices.append(price)
 
 print("------Your cart----")
 
-for i in range(len(foods)):
-    print(f"{foods[i]} - ₹{prices[i]}")
-    total += prices[i]
-
+for food in foods:
+  print(food,end="")
 print(f"Total = ₹{total}")
